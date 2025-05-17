@@ -10,8 +10,9 @@ cd solar-challenge-week1
 
 ### Create virtual environment
 ```bash
-python3 -m venv venv
-source venv/bin/activate
+py -m venv week0
+source week0/Scripts/activate   # On Windows
+source .venv/bin/activate  # On Linux/macOS
 ```
 
 ### Install dependencies
